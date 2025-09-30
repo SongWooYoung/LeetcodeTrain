@@ -1,0 +1,14 @@
+ArrayString
+
+1.  MergeStringsAlternatively
+    정해진 길이는 const로 규정
+    string의 reserved로 최대 길이 지정 -> 내부에서 일정 길이 넘어가면 재할당이 발생하기 떄문
+
+
+2. GreatestCommonDivisorofStrings
+    string의 부분 정보 추출 -> substr
+    공약 문자열이 존재하려면 str1 + str2 == str2 + str1이어야 함 -> 생각 못했네
+
+3. KidsWiththeGreatestNumberofCandies
+    int max = *max_element(v.begin(), v.end()); => max_element
+    int max_index = max_element(v.begin(), v.end()) - v.begin(); => index of max_element
